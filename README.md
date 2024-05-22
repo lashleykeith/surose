@@ -1,4 +1,4 @@
-# surose
+# Surose Marketplace
 This is the documentation for our marketplace app.
 
 We are going to give you an overview of the main parts of the program that make the application work. 
