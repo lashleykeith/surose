@@ -16,7 +16,7 @@ Here are three of the main classes.
 These all store data so that it can be used by the program.
 
 ### views.py (The Muscular System)
-The views.py file in the Surose/core/ directory represents the brain of the application.  In this file, we see the code uses functions that allow us to move and manipulate the data we have in the models.py file.  This can be likened to the muscular system as it gives us the power to change the information from the data entries to produce the results we need in our application.
+The views.py file in the Surose/core/ directory represents the brain of the application.  In this file, we see the code uses `functions` that allow us to move and manipulate the data we have in the models.py file.  This can be likened to the muscular system as it gives us the power to change the information from the data entries to produce the results we need in our application.
 
 Here are three of the main functions.
 1. **product_cart_add(request, product_id)**: (From line 184) This function is responsible for adding a specified product to the user's cart. It takes the `product_id` as a parameter and updates the user's cart accordingly. Think of it as the "muscle" that executes the action of adding items to the cart when prompted.
@@ -27,7 +27,7 @@ Here are three of the main functions.
 
 ### urls.py (The Nervous System)
 
-The views.py file in the Surose/core/ directory represents the brain of the application.  In this file, we see the code uses routes we call paths to initiate actions  These paths represent the communication of data and actions from one part of the application to another.  These paths execute the movements of the functions in views.py.
+The views.py file in the Surose/core/ directory represents the brain of the application.  In this file, we see the code uses routes we call `paths` to initiate actions  These paths represent the communication of data and actions from one part of the application to another.  These paths execute the movements of the functions in views.py.
 
 1. **path('product/checkout/', views.product_checkout, name='product_checkout')**:  (From line 13)   Represents the route for initiating the checkout process. When a user navigates to this URL, it triggers the `product_checkout` function in `views.py`, allowing users to proceed with the purchase of items in their cart. Think of it as the "nerve pathway" that guides users to the checkout process.
 
